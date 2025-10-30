@@ -3387,7 +3387,7 @@
 											"top": 308,
 											"width": 192.826171875,
 											"height": 13,
-											"text": "+UserEntity()",
+											"text": "+create(): UserEntity",
 											"horizontalAlignment": 0
 										},
 										{
@@ -10426,7 +10426,18 @@
 									"_parent": {
 										"$ref": "AAAAAAGaNZq2J+Kp3dY="
 									},
-									"name": "UserEntity"
+									"name": "create",
+									"parameters": [
+										{
+											"_type": "UMLParameter",
+											"_id": "AAAAAAGaNdgRlvZlffM=",
+											"_parent": {
+												"$ref": "AAAAAAGaNa8FfW/c4Ww="
+											},
+											"type": "UserEntity",
+											"direction": "return"
+										}
+									]
 								},
 								{
 									"_type": "UMLOperation",
